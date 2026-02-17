@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bulut Notlar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>☁️ Bulut Notlar</h1>
+      <p class="subtitle">Redmi 12 dahil tüm cihazlardan notlarına eriş.</p>
+
+      <section id="authBox" class="card">
+        <h2>Giriş / Kayıt</h2>
+        <input id="email" type="email" placeholder="Email" />
+        <input id="password" type="password" placeholder="Şifre (min 6)" />
+        <div class="row">
+          <button id="registerBtn">Kayıt Ol</button>
+          <button id="loginBtn" class="primary">Giriş Yap</button>
+        </div>
+      </section>
+
+      <section id="appBox" class="card hidden">
+        <div class="headerRow">
+          <h2>Notlarım</h2>
+          <button id="logoutBtn">Çıkış</button>
+        </div>
+
+        <input id="title" type="text" placeholder="Not başlığı" />
+        <textarea id="content" rows="5" placeholder="Not içeriği"></textarea>
+        <div class="row">
+          <button id="saveBtn" class="primary">Notu Kaydet</button>
+          <button id="cancelEditBtn" class="hidden">Düzenlemeyi İptal</button>
+        </div>
+
+        <ul id="notesList"></ul>
+      </section>
+
+      <p id="message"></p>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
