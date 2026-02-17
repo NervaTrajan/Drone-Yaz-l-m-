@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f6fb;
+  color: #1b1f2b;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  margin-top: 0;
+  color: #5a6280;
+}
+
+.card {
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  margin: 16px 0;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #d6dbeb;
+  margin: 6px 0;
+}
+
+button {
+  cursor: pointer;
+  background: #eef1ff;
+}
+
+button.primary {
+  background: #445bff;
+  color: #fff;
+  border: none;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#notesList {
+  list-style: none;
+  padding: 0;
+}
+
+#notesList li {
+  border: 1px solid #e5e9f7;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.noteHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.noteActions {
+  display: flex;
+  gap: 6px;
+}
+
+.hidden {
+  display: none;
+}
+
+#message {
+  min-height: 24px;
+  font-weight: 600;
+}

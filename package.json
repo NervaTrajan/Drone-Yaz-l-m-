@@ -1,0 +1,10 @@
+{
+  "name": "redmi12-not-bulut",
+  "version": "1.0.0",
+  "description": "Redmi 12 ve diğer cihazlardan erişilebilen not uygulaması",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}
